@@ -10,7 +10,7 @@ header, main, footer {
 }
 
 .div1 h1 {
-    grid-row: 1/2;
+grid-row: 1/2;
     padding: 25px;
 }
 
