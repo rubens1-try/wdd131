@@ -89,7 +89,6 @@ main {
     align-items: start;
 }
 
-
 /* ==========================
    Card Styling
    ========================== */
@@ -121,7 +120,7 @@ main {
     display: block;
     max-width: 70%;
     height: auto;
-    margin:20px 10px 30px auto;
+    margin: 20px 10px 30px auto;
     border-radius: 4px;
 }
 
@@ -137,37 +136,9 @@ main {
     color: var(--secondary-color);
 }
 
-/*about me Styling*/
-.country-info {
-    display: flex;
-    gap: 16px;
-    align-items: flex-start;
-    padding: 0 16px;
-    margin-bottom: 24px;
-}
-
-.flag-container {
-    flex-shrink: 0;
-    width: 140px;
-    text-align: center;
-}
-
-.flag-container img {
-    width: 100%;
-    height: auto;
-    border: 1px solid var(--border-color);
-    margin: 0 0 6px 0;
-}
-
-.flag-caption {
-    font-size: 0.8rem;
-    font-style: italic;
-    color: #555555;
-    display: block;
-}
-
-/* Ajustement de la photo de profil pour qu'elle s'aligne bien à droite ou se comporte correctement */
-/* Mise en page de la partie supérieure (Texte de présentation + Photo) */
+/* ==========================
+   About Me Section Styling
+   ========================== */
 .about-top {
     display: flex;
     gap: 20px;
@@ -182,7 +153,6 @@ main {
     flex: 1;
 }
 
-/* Style de votre photo de profil */
 .profile-img {
     width: 150px;
     height: auto;
@@ -225,7 +195,9 @@ main {
     margin: 0;
 }
 
-/* Web Dev Resources List Styling */
+/* ==========================
+   Web Dev Resources List
+   ========================== */
 .card ul.resource-list {
     margin: 16px 24px 24px 36px;
     padding-left: 10px;
